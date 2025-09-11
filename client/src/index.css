@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* use the Google font */
+:root {
+  --site-font: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+html, body, #app {
+  height: 100%;
+  font-family: var(--site-font);
+}
+
+/* small card image overlay */
+.card-image-overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 100%);
+}
+
+/* subtle page bg */
+body {
+  background: linear-gradient(180deg,#f8fafc 0%, #eef2f7 100%);
+}
